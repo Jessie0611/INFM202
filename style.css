@@ -17,7 +17,8 @@ body{
     height: 100%;
     background-color: #574186;
     padding: 5px;
-    padding-bottom: 300px;
+    padding-bottom: 80px;
+    opacity: 90%;
 }
 .footer{
     
@@ -28,9 +29,9 @@ body{
     position: absolute;
 }
 
-.logo:hover {
+.logo:hover, .roungImgs:hover {
     transform: rotate(-360deg);
-    transition: 1.6s;
+    transition: 1.3s;
 }
 nav{
     margin-top: 40px;
@@ -103,11 +104,11 @@ h1{
 }
 p{
     color:#3fe8b2;
-    font-size: 1.1em;
+    font-size: 1.2em;
     letter-spacing: 4px;
 }
 hr{
-    width: 80%;
+    width: 90%;
 }
 .mainText{
     display: flex;
@@ -115,6 +116,14 @@ hr{
     text-align: center;
 }
 .bodyText{
-    justify-content: center;
+    justify-content: left;
     text-align: center;
+}
+.roungImgs{
+        border-radius: 50px;
+}
+.thisMe{
+    padding-top: 120px;
+    justify-content: right;
+    opacity: 80%;
 }
