@@ -1,7 +1,7 @@
 html{
     width: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image:url(../Images/galaxybg.png)
+    background-image:url(Images/galaxybg.png)
 }
 body{
     display: flex;
@@ -126,4 +126,7 @@ hr{
     padding-top: 120px;
     justify-content: right;
     opacity: 80%;
+}
+.coffeeLogo{
+    border-radius: 400px;
 }
