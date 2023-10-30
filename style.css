@@ -31,11 +31,11 @@ body{
 
 .logo:hover, .roungImgs:hover {
     transform: rotate(-360deg);
-    transition: 1.3s;
+    transition: 1.4s;
 }
 nav{
     margin-top: 40px;
-    margin-left: 150px;
+    margin-left: 155px;
     padding: 2px;
 }
 .dropbtn {
@@ -134,5 +134,5 @@ hr{
 }
 .jbLogo:hover{
     transform: rotate(-360deg);
-    transition: 3s;
+    transition: 1.4s;
 }
