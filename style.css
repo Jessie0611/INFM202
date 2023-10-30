@@ -18,7 +18,7 @@ body{
     background-color: #574186;
     padding: 5px;
     padding-bottom: 80px;
-    opacity: 90%;
+    opacity: 92%;
 }
 .footer{
     
@@ -127,6 +127,8 @@ hr{
     justify-content: right;
     opacity: 80%;
 }
-.coffeeLogo{
-    border-radius: 400px;
+.jbLogo{
+    border-radius: 350px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
