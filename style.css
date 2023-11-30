@@ -32,36 +32,36 @@ body{
     transition: 1.4s;
 }
 nav{
-    margin-top: 40px;
-    margin-left: 185px;
-    padding: 3px;
+    margin-top: 45px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-around;
 }
 .dropbtn {
-    margin-left: 10px;
-    padding: 12px;
+    padding: 15px;
     border: none;
     background-color: #291d55;
-    border: 3px solid #25bd8d;
+    border: 3px solid #42dc7d;
     color: #ffffff;
   }
 
   .dropdown {
     position: relative;
     display: inline-block;
-    padding: 15px;
+    padding: 13px;
 
   }
   .dropdown-content {
     color: #b5fdd2;
-    background-color: #584289;
-    margin-left: 10px;
-    margin-top: 2px;
+    background-color: #4a2054;
+    margin-left: 5px;
+    margin-top: 4px;
     font-size: 1em;
     display: none;
     position: absolute;
     min-width: 210px;
     max-width: 212px;
-    box-shadow: 0px 4px 12px 2px #11526b;
+    box-shadow: 1px 4px 12px 3px #42dc7d;
     z-index: 1;
   }
  .dropdown-content a {
@@ -75,7 +75,7 @@ a{
     text-decoration: none;
 }
 a:visited{
-    color: #92e35d;
+    color: rgb(192, 191, 242);
 }
 .dropdown-content a:hover {
     background-color:#033d54;
@@ -85,11 +85,11 @@ a:visited{
  
 .dropdown:hover .dropdown-content {
     display: block;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #483a77;
+    background-color: #4a2054;
     letter-spacing: 4px;
 }
 h4{
@@ -106,7 +106,7 @@ h1{
     padding-bottom: 2px;
 }
 p{
-    color:#4de6b6;
+    color:#5be791;
     font-size: 1.2em;
     letter-spacing: 3px;
     margin-left: 80px;
@@ -129,7 +129,7 @@ hr{
         border-radius: 50px;
 }
 .thisMe{
-    padding-top: 130px;
+    padding-top: 140px;
     justify-content: right;
     opacity: 70%;
 }
