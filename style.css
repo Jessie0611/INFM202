@@ -15,14 +15,12 @@ body{
 .content{
     width: 80%;
     height: 100%;
-    background-color: #574186;
+    background-color: #3b2a63;
     padding: 5px;
     padding-bottom: 80px;
-    opacity: 94%;
+    opacity: 95%;
 }
-.footer{
-    
-}
+
 .logo{
     margin-top: 10px;
     display: flex;
@@ -42,8 +40,8 @@ nav{
     margin-left: 10px;
     padding: 12px;
     border: none;
-    background-color: #211649;
-    border: 2px solid #40cfa1;
+    background-color: #291d55;
+    border: 3px solid #25bd8d;
     color: #ffffff;
   }
 
@@ -55,13 +53,14 @@ nav{
   }
   .dropdown-content {
     color: #b5fdd2;
-    background-color: #6a5694;
+    background-color: #584289;
     margin-left: 10px;
     margin-top: 2px;
     font-size: 1em;
     display: none;
     position: absolute;
     min-width: 210px;
+    max-width: 212px;
     box-shadow: 0px 4px 12px 2px #11526b;
     z-index: 1;
   }
@@ -76,10 +75,10 @@ a{
     text-decoration: none;
 }
 a:visited{
-    color: #ccffaa;
+    color: #92e35d;
 }
 .dropdown-content a:hover {
-    background-color:#11526b;
+    background-color:#033d54;
     font-size: 16px;
     letter-spacing: 6px;
 }
@@ -90,8 +89,12 @@ a:visited{
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #57478b;
+    background-color: #483a77;
     letter-spacing: 4px;
+}
+h4{
+    color: rgb(255, 255, 255);
+    letter-spacing: 6px;
 }
 h3{
     color: white;
@@ -103,13 +106,16 @@ h1{
     padding-bottom: 2px;
 }
 p{
-    color:#3fe8b2;
-    font-size: 1.1em;
-    letter-spacing: 4px;
+    color:#4de6b6;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 hr{
     width: 90%;
 }
+
 .mainText{
     display: flex;
     justify-content: center;
@@ -125,14 +131,17 @@ hr{
 .thisMe{
     padding-top: 120px;
     justify-content: right;
-    opacity: 80%;
+    opacity: 70%;
 }
 .jbLogo{
-    border-radius: 400px;
-    margin-left: 30px;
-    margin-right: 30px;
+    border-radius: 300px;
 }
 .jbLogo:hover{
     transform: rotate(-360deg);
-    transition: 1.4s;
+    transition: 1.8s;
+}
+.thirds{
+    padding-top: 120px;
+    justify-content: left;
+    opacity: 70%;
 }
