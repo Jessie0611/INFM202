@@ -107,7 +107,7 @@ h1{
 }
 p{
     color:#5be791;
-    font-size: 1.2em;
+    font-size: 1rem;
     letter-spacing: 3px;
     margin-left: 80px;
     margin-right: 80px;
@@ -129,7 +129,7 @@ hr{
         border-radius: 50px;
 }
 .thisMe{
-    padding-top: 140px;
+    padding-top: 120px;
     justify-content: right;
     opacity: 70%;
 }
